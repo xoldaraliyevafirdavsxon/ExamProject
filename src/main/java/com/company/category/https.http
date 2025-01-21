@@ -1,0 +1,35 @@
+###
+GET http://localhost:8080/get-all-categories
+
+###
+GET http://localhost:8080/get-category-by-id
+Content-Type: application/json
+
+{
+  "id" : 1
+}
+
+###
+POST http://localhost:8080/create-category
+Content-Type: application/json
+
+{
+  "name": "salad"
+}
+
+###
+PUT http://localhost:8080/update-category
+Content-Type: application/json
+
+{
+  "id" : 1,
+  "name" : "ovqat"
+}
+
+###
+DELETE http://localhost:8080/delete-book
+Content-Type: application/json
+
+{
+  "id" : 1
+}
