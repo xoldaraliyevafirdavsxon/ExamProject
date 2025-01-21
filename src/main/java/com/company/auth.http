@@ -1,0 +1,19 @@
+###  PRODUCTS
+GET http://localhost:8080/products
+Content-Type: application/json
+
+### PRODUCT ID
+GET http://localhost:8080/products/2
+
+### PRODUCT ADD
+POST http://localhost:8080/products/sut/2000
+Content-Type: application/x-www-form-urlencoded
+
+### PRODUCT UPDATE
+PUT http://localhost:8080/products/1/sut
+Content-Type: application/x-www-form-urlencoded
+
+### PRODUCT DELETE
+DELETE http://localhost:8080/products/2
+
+
